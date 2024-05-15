@@ -18,7 +18,7 @@ jobs:
         with:
           json-file: ./releases.json  # Specify the path to your JSON file
       - name: move file (bit of a hack)
-        run: mv releases.html index.html
+        run: ls -alh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
