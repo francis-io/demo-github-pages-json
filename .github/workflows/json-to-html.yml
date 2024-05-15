@@ -3,7 +3,7 @@ name: Convert JSON to HTML Table
 on:
   push:
     branches:
-      - main  # Adjust this branch as needed
+      - master  # Adjust this branch as needed
 
 jobs:
   convert-json:
