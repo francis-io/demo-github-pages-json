@@ -6,7 +6,7 @@ on:
       - master  # Adjust this branch as needed
 
 jobs:
-  convert-json:
+  build:
     runs-on: ubuntu-latest
 
     steps:
